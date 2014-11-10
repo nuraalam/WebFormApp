@@ -15,3 +15,8 @@ C:\Users\Hafiz\Desktop\Student-Department-Web-Form-App\StudentManagementApp_WebF
 C:\Users\Hafiz\Desktop\Student-Department-Web-Form-App\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.pdb
 C:\Users\Hafiz\Desktop\Student-Department-Web-Form-App\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.dll
 C:\Users\Hafiz\Desktop\Student-Department-Web-Form-App\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.pdb
+C:\Users\PC21\Desktop\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.dll.config
+C:\Users\PC21\Desktop\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.dll
+C:\Users\PC21\Desktop\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\bin\StudentManagementApp_WebForm.pdb
+C:\Users\PC21\Desktop\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.dll
+C:\Users\PC21\Desktop\WebFormApp\StudentManagementApp_WebForm\StudentManagementApp_WebForm\obj\Debug\StudentManagementApp_WebForm.pdb
