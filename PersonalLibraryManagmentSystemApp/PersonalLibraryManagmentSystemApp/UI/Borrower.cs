@@ -11,5 +11,9 @@ namespace PersonalLibraryManagmentSystemApp
             Number = number;
             Book = book;
         }
+
+        public Borrower()
+        {
+        }
     }
 }

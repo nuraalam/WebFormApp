@@ -28,5 +28,15 @@ namespace PersonalLibraryManagmentSystemApp
 
             return retriveMember != null;
         }
+
+        public List<Borrower> ShowAllBorroweBookForThisMember(string memberNumber)
+        {
+            return aBookGateway.ShowAllBrrowedBookForThisMember(memberNumber);
+        }
+
+        public void DeleteBookByMember(string selectedValue)
+        {
+            aBookGateway.DeletedBookByManager(selectedValue);
+        }
     }
 }

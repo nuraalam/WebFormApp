@@ -40,6 +40,15 @@ namespace PersonalLibraryManagmentSystemApp {
         protected global::System.Web.UI.WebControls.TextBox enterMemberNoTextBox;
         
         /// <summary>
+        /// showBorrowedBookButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button showBorrowedBookButton;
+        
+        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -49,58 +58,22 @@ namespace PersonalLibraryManagmentSystemApp {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// selectABookDropDownList control.
+        /// borrowedBooklistDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList selectABookDropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList borrowedBooklistDropDownList;
         
         /// <summary>
-        /// Label2 control.
+        /// returnButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
-        
-        /// <summary>
-        /// authorTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox authorTextBox;
-        
-        /// <summary>
-        /// Label3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
-        
-        /// <summary>
-        /// publisherTextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox publisherTextBox;
-        
-        /// <summary>
-        /// borrowButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button borrowButton;
+        protected global::System.Web.UI.WebControls.Button returnButton;
         
         /// <summary>
         /// msgLevel control.

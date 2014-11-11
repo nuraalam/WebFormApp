@@ -72,5 +72,41 @@ namespace PersonalLibraryManagmentSystemApp
 
             return rowAffected;
         }
+
+        public List<Borrower> ShowAllBrrowedBookForThisMember(string memberNumber)
+        {
+            var query = "SELECT * FROM BorrowBook WHERE MemberId="+memberNumber;
+
+            Command.CommandText = query;
+
+            Connection.Open();
+            SqlDataReader rdr = Command.ExecuteReader();
+
+            List<Borrower> bookList = new List<Borrower>();
+
+            while (rdr.Read())
+            {
+                Borrower aBorrowerBooks = new Borrower();
+                aBorrowerBooks.BorrowedId = (int)rdr["BorrowID"];
+                aBorrowerBooks.Number = rdr["MemberId"].ToString();
+                aBorrowerBooks.Book = rdr["BookName"].ToString();
+                bookList.Add(aBorrowerBooks);
+            }
+
+            rdr.Close();
+            Connection.Close();
+            return bookList;
+        }
+
+        public void DeletedBookByManager(string selectedValue)
+        {
+         var query= "DELETE FROM BorrowBook WHERE BorrowId = "+selectedValue;
+         Command.CommandText = query;
+
+         Connection.Open();
+         Command.ExecuteNonQuery();
+         Connection.Close();
+
+        }
     }
 }

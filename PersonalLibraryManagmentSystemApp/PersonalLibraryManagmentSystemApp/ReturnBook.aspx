@@ -6,37 +6,34 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style="margin-left: 108px; margin-top: 80px">
     <form id="form2" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Enter Member No" Width="120px"></asp:Label>
-            <asp:TextBox ID="enterMemberNoTextBox" runat="server" style="margin-left: 38px" Width="160px"></asp:TextBox>
+            <asp:TextBox ID="enterMemberNoTextBox" runat="server" Style="margin-left: 38px" Width="160px" Height="35px"></asp:TextBox>
         </div>
         <br />
         <div>
-            <asp:Label ID="Label4" runat="server" Text="Select A Book" Width="120px"></asp:Label>
-            <asp:DropDownList ID="selectABookDropDownList" runat="server" style="margin-left: 36px; margin-right: 80px" Width="160px" AutoPostBack="True" OnSelectedIndexChanged="selectABookDropDownList_SelectedIndexChanged">
+            <asp:Button ID="showBorrowedBookButton" runat="server" Height="44px" Style="margin-left: 160px" Text="Show Borrowed Books" Width="166px" OnClick="showBorrowedBookButton_Click" />
+        </div>
+        <br />
+        <div>
+            <asp:Label ID="Label4" runat="server" Text="Borrowed Booklist" Width="150px"></asp:Label>
+            <asp:DropDownList ID="borrowedBooklistDropDownList" runat="server" Style="margin-left: 6px; margin-right: 80px" Width="180px" AutoPostBack="True" Height="40px">
             </asp:DropDownList>
         </div>
         <br />
         <div>
-            <asp:Label ID="Label2" runat="server" Text="Author" Width="120px"></asp:Label>
-            <asp:TextBox ID="authorTextBox" runat="server" style="margin-left: 35px" Width="160px"></asp:TextBox>
+            <asp:Button ID="returnButton" runat="server" Height="44px" Style="margin-left: 160px" Text="Return" Width="166px" OnClick="returnButton_Click" />
         </div>
         <br />
         <div>
-            <asp:Label ID="Label3" runat="server" Text="Publisher" Width="120px"></asp:Label>
-            <asp:TextBox ID="publisherTextBox" runat="server" style="margin-left: 36px" Width="160px"></asp:TextBox>
-        </div>
-        <br/>
-        <div>
-            <asp:Button ID="borrowButton" runat="server" Height="44px" style="margin-left: 160px" Text="Borrow" Width="166px" OnClick="borrowButton_Click1" />
-        </div>
-        <br/>
-        <div>
             <asp:Label ID="msgLevel" runat="server"></asp:Label>
         </div>
-  
+
+        <br />
+        <br />
+
     </form>
 </body>
 </html>

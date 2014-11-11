@@ -31,11 +31,10 @@ namespace PersonalLibraryManagmentSystemApp
                 bookList = aBookManager.GetAllBook();
                 selectABookDropDownList.DataSource = bookList;
                 selectABookDropDownList.DataTextField = "title";
-                selectABookDropDownList.DataValueField = "title";
-                authorTextBox.Text = bookList[0].Author;
-                publisherTextBox.Text = bookList[0].Publisher;
+                selectABookDropDownList.DataValueField = "title";               
                 selectABookDropDownList.DataBind();
             }
+          
         }
 
         protected void borrowButton_Click1(object sender, EventArgs e)
